@@ -5,6 +5,21 @@ const shopifyProjects = data.shopifyProjects;
 const wpProjects = data.wpProjects;
 const laravelProjects = data.laravelProjects;
 
+const allProjectsCombined = [
+  ...shopifyProjects.map(p => ({...p, platform: 'shopify'})),
+  ...wpProjects.map(p => ({...p, platform: 'wordpress'})),
+  ...laravelProjects.map(p => ({...p, platform: 'laravel'}))
+];
+
+function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 const profileImageUrl = "assets/images/ssbag.jpeg";
 
 const navbar = `
@@ -183,6 +198,46 @@ function generateProjectCards(projects, platform = 'shopify') {
   `}).join('');
 }
 
+const skillsContent = `
+  <section class="py-5">
+    <div class="container py-5 reveal">
+      <div class="text-center mb-5">
+        <span class="section-subtitle">Creation is Life</span>
+        <h2 class="section-title">My Professional Skills</h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 mb-5 pe-md-5">
+          <h4 class="mb-4 fw-bold">Development Skills</h4>
+          ${[
+            {name: 'Shopify / Liquid', val: 95},
+            {name: 'WordPress / WooCommerce', val: 90},
+            {name: 'Laravel / PHP', val: 87},
+            {name: 'React / Node.js', val: 80}
+          ].map(s => `
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-bold text-uppercase" style="font-family:'Jost', sans-serif;">${s.name}</span>
+                <span class="fw-bold text-primary">${s.val}%</span>
+              </div>
+              <div class="progress" style="height: 8px; border-radius:10px; background-color:var(--border-color);">
+                <div class="progress-bar" role="progressbar" style="width: ${s.val}%; background-color:var(--primary-color); border-radius:10px;"></div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+        <div class="col-md-6 mb-5">
+          <h4 class="mb-4 fw-bold">Tools & Technologies</h4>
+          <div class="d-flex flex-wrap gap-3">
+            ${['MySQL', 'JavaScript', 'jQuery', 'Bootstrap', 'HTML5', 'CSS3', 'REST API', 'GraphQL', 'Git', 'GitHub', 'Salesforce'].map(t => `
+              <span class="btn btn-outline-primary" style="pointer-events:none;">${t}</span>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+`;
+
 // 1. Index Page
 const indexContent = `
   <!-- GraphixPro Style Hero -->
@@ -289,6 +344,8 @@ const indexContent = `
     </div>
   </section>
 
+  ${skillsContent}
+
   <!-- Featured Projects -->
   <section class="py-5" id="projects">
     <div class="container reveal pt-5">
@@ -297,12 +354,10 @@ const indexContent = `
         <h2 class="section-title">Here Are My Latest Projects.</h2>
       </div>
       <div class="row">
-        ${generateProjectCards(shopifyProjects.slice(0, 10), 'shopify')}
-        ${generateProjectCards(wpProjects.slice(0, 7), 'wordpress')}
-        ${generateProjectCards(laravelProjects.slice(0, 3), 'laravel')}
+        ${generateProjectCards(shuffleArray(allProjectsCombined).slice(0, 15), 'mixed')}
       </div>
       <div class="text-center mt-4">
-        <a href="shopify-projects.html" class="btn btn-primary">See All Projects</a>
+        <a href="all-projects.html" class="btn btn-primary">See All Projects</a>
       </div>
     </div>
   </section>
@@ -360,45 +415,6 @@ const servicesContent = `
 fs.writeFileSync('services.html', generateHTML('Services', servicesContent));
 
 // 4. Skills Page
-const skillsContent = `
-  <section class="py-5">
-    <div class="container py-5 reveal">
-      <div class="text-center mb-5">
-        <span class="section-subtitle">Creation is Life</span>
-        <h2 class="section-title">My Professional Skills</h2>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6 mb-5 pe-md-5">
-          <h4 class="mb-4 fw-bold">Development Skills</h4>
-          ${[
-            {name: 'Shopify / Liquid', val: 95},
-            {name: 'WordPress / WooCommerce', val: 90},
-            {name: 'Laravel / PHP', val: 87},
-            {name: 'React / Node.js', val: 80}
-          ].map(s => `
-            <div class="mb-4">
-              <div class="d-flex justify-content-between mb-2">
-                <span class="fw-bold text-uppercase" style="font-family:'Jost', sans-serif;">${s.name}</span>
-                <span class="fw-bold text-primary">${s.val}%</span>
-              </div>
-              <div class="progress" style="height: 8px; border-radius:10px; background-color:var(--border-color);">
-                <div class="progress-bar" role="progressbar" style="width: ${s.val}%; background-color:var(--primary-color); border-radius:10px;"></div>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-        <div class="col-md-6 mb-5">
-          <h4 class="mb-4 fw-bold">Tools & Technologies</h4>
-          <div class="d-flex flex-wrap gap-3">
-            ${['MySQL', 'JavaScript', 'jQuery', 'Bootstrap', 'HTML5', 'CSS3', 'REST API', 'GraphQL', 'Git', 'GitHub', 'Salesforce'].map(t => `
-              <span class="btn btn-outline-primary" style="pointer-events:none;">${t}</span>
-            `).join('')}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-`;
 fs.writeFileSync('skills.html', generateHTML('Skills', skillsContent));
 
 // Project Pages
@@ -440,11 +456,6 @@ fs.writeFileSync('shopify-projects.html', generateHTML('Shopify Projects', proje
 fs.writeFileSync('wordpress-projects.html', generateHTML('WordPress Projects', projectPageContent('WordPress Projects', wpProjects)));
 fs.writeFileSync('laravel-projects.html', generateHTML('Laravel Projects', projectPageContent('Laravel Projects', laravelProjects)));
 
-const allProjectsCombined = [
-  ...shopifyProjects.map(p => ({...p, platform: 'shopify'})),
-  ...wpProjects.map(p => ({...p, platform: 'wordpress'})),
-  ...laravelProjects.map(p => ({...p, platform: 'laravel'}))
-];
 fs.writeFileSync('all-projects.html', generateHTML('All Projects', projectPageContent('All Projects', allProjectsCombined)));
 
 console.log('Complete generation finished. Contact section totally removed. GraphixPro layout applied.');
