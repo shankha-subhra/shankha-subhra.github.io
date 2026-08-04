@@ -49,6 +49,10 @@ h6 {
   transition: all 0.3s ease;
 }
 
+a.navbar-brand img {
+  max-height: 52px;
+}
+
 .sticky-navbar {
   position: sticky;
   top: 0;
