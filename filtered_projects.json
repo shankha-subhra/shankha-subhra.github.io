@@ -157,114 +157,602 @@
     {
       "title": "KLS Services",
       "url": "http://klsservices.com.au/",
-      "cat": "Booking",
-      "tech": "WordPress, ACF, JS",
-      "metaTitle": "KLS Services &#8211; Business and Marketing Automation",
-      "metaDesc": "Business automation for the growing business"
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Fire Safe Chimney Services",
+      "url": "http://firesafechimneyservices.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "ILM Weekly",
       "url": "https://ilmweekly.com/",
-      "cat": "Blog",
-      "tech": "WordPress, ACF",
-      "metaTitle": "Wilmington NC Deals ~ Top Rated Destination - ILMWeekly",
-      "metaDesc": "Wilmington NC Deals, Events, Activities, Music, Food Trucks ... all on one daily page! Includes Leland, Wrightsville Beach, Carolina Beach"
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "4 Nations",
       "url": "http://www.4nations.com.au/",
       "cat": "Business",
-      "tech": "WordPress, PHP",
-      "metaTitle": "One moment, please...",
-      "metaDesc": "No description available for 4 Nations."
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "The Wisdom Academy",
+      "url": "https://www.thewisdomacademy.in/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Leadigo",
+      "url": "https://www.leadigo.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Ravinia Plumbing",
       "url": "http://raviniaplumbing.com/",
-      "cat": "Services",
-      "tech": "WordPress, Custom Theme",
-      "metaTitle": "Plumbing, Sewer, Heating &amp; Electrical Services | Ravinia",
-      "metaDesc": "Ravinia Plumbing is a leading home services contractor in Lincolnshire &amp; Chicago Northshore area, providing plumbing, HVAC, and electrical services."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
-      "title": "Precision Work Inc",
+      "title": "Precision Work",
       "url": "http://precisionworkinc.com/",
       "cat": "Business",
-      "tech": "WordPress, Filters",
-      "metaTitle": "Trusted Landscaping Equipment in NY, NJ, CT &amp; Beyond | Precision Work Inc",
-      "metaDesc": "Precision Work, Inc. proudly distributes Walker Mowers, Ecolawn, and Square Barrel across NY, NJ, CT, MA, PA, OH, MI, IN, and the Northeast. Your source for professional-grade landscaping equipment built for performance and efficiency."
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Restore Masonry",
+      "url": "http://restoremasonry.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Tyler Lane",
+      "url": "http://tylerlaneinc.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Curiously You",
       "url": "http://www.curiouslyyou.com/",
       "cat": "Business",
-      "tech": "WordPress, JS, CSS",
-      "metaTitle": "Gold ira, Prop firms, ORB Trading strategy | curiouslyyou.com",
-      "metaDesc": "Investors are constantly seeking avenues to diversify their portfolios and safeguard their wealth. In recent years, Gold Individual Retirement Accounts (IRAs)"
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "EduJobs Canada MemberPress, Stripe, translation and",
+      "url": "http://edujobscanada.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Tasha Jean",
       "url": "http://tasha-jean.com/",
-      "cat": "Portfolio",
-      "tech": "WordPress, ACF",
-      "metaTitle": "Home | Tasha Jean | Premier Denver Hair Stylist &amp; Hair Extensions",
-      "metaDesc": "Meet Tasha Jean, a personal premiere denver hairstylist with over 20 years of experience in color and hair extensions. Invisible bead extensions."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
-      "title": "Hotel Digonera",
+      "title": "Hotel Digonera Multilingual custom theme and",
       "url": "http://www.hoteldigonera.com/en/",
-      "cat": "Hotel",
-      "tech": "Translator Plugin, ACF",
-      "metaTitle": "One moment, please...",
-      "metaDesc": "No description available for Hotel Digonera."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
-      "title": "Punjab Sweets Online",
+      "title": "Consultants SI Multilingual PHP theme with",
+      "url": "http://consultantssi.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Flexi",
+      "url": "http://flexi.co.in/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "IT People Network",
+      "url": "http://itpeoplenetwork.com/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Punjab Sweets Online ToastTab ordering/booking,",
       "url": "http://punjabsweetsonline.com/",
-      "cat": "Ecommerce",
-      "tech": "ToastTab, WordPress",
-      "metaTitle": "Punjab Sweets Online",
-      "metaDesc": "No description available for Punjab Sweets Online."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Splash Car Wash",
       "url": "https://www.splashcarwash.com.au/",
-      "cat": "Services",
-      "tech": "WordPress, Custom Theme",
-      "metaTitle": "Splash Car Wash",
-      "metaDesc": "No description available for Splash Car Wash."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Caster Concepts",
       "url": "https://www.casterconcepts.com/",
       "cat": "Business",
-      "tech": "WordPress, PHP",
-      "metaTitle": "Heavy Duty Casters &amp; Wheels | USA-Made Caster Manufacturer",
-      "metaDesc": "As a leading industrial caster manufacturer, we build heavy duty caster wheels in the USA for the toughest loads upto 100,000+Lbs. Get custom casters and fast shipping."
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "FlipNerd",
       "url": "https://flipnerd.com/",
-      "cat": "Real Estate",
-      "tech": "WordPress, Custom Theme",
-      "metaTitle": "Real Estate Investing Guides &amp; Podcasts - FlipNerd",
-      "metaDesc": "Wanting to get started in real estate investing? Learn how to wholesale properties, find new deals, and learn from other investors through our podcasts!"
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Green As It Gets",
       "url": "https://www.greenasitgets.com/",
       "cat": "Business",
-      "tech": "WordPress, ACF",
-      "metaTitle": "One moment, please...",
-      "metaDesc": "No description available for Green As It Gets."
+      "tech": "WordPress, Custom Theme"
     },
     {
       "title": "Toby Weston",
       "url": "http://tobyweston.net/",
-      "cat": "Portfolio",
-      "tech": "WordPress, Custom Theme",
-      "metaTitle": "Toby Weston - Science Fiction Author",
-      "metaDesc": "Toby Weston - Science fiction author exploring AI, consciousness, and the future of humanity."
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Bulletproof",
+      "url": "https://clearbrand.com/wp-website-example/bulletproof/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Dallas Mavericks",
+      "url": "https://clearbrand.com/wp-website-example/dallas-mavericks/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Dallas Oasis",
+      "url": "https://clearbrand.com/wp-website-example/dallas-oasis/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Equilibria",
+      "url": "https://clearbrand.com/wp-website-example/equilibria/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Forever Oceans",
+      "url": "https://clearbrand.com/wp-website-example/forever-oceans/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Lightspeed Venture Partners",
+      "url": "https://clearbrand.com/wp-website-example/lightspeed-venture-partners/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Orbit Fab",
+      "url": "https://clearbrand.com/wp-website-example/orbit-fab/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Security Training Center",
+      "url": "https://clearbrand.com/wp-website-example/security-training-center/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "WonderCow",
+      "url": "https://clearbrand.com/wp-website-example/wondercow/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "The Rolling Stones",
+      "url": "https://clearbrand.com/wp-website-example/the-rolling-stones/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Reverent Films",
+      "url": "https://clearbrand.com/wp-website-example/reverent-films/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Lisa Devlin Photography",
+      "url": "https://clearbrand.com/wp-website-example/lisa-devlin-photography/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Mayberry Multimedia",
+      "url": "https://clearbrand.com/wp-website-example/mayberry-multimedia/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Melanie Mauer",
+      "url": "https://clearbrand.com/wp-website-example/melanie-mauer/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Fusion Designed",
+      "url": "https://clearbrand.com/wp-website-example/fusion-designed/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "City Museum",
+      "url": "https://clearbrand.com/wp-website-example/city-museum/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Focused Compliance Group",
+      "url": "https://clearbrand.com/wp-website-example/focused-compliance-group/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "EcoCosm Inc",
+      "url": "https://clearbrand.com/wp-website-example/ecocosm-inc/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Arnic Business Solutions",
+      "url": "https://clearbrand.com/wp-website-example/arnic-business-solutions/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Tell Me Your Dreams",
+      "url": "https://clearbrand.com/wp-website-example/tell-me-your-dreams/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "The Digital Headhunter",
+      "url": "https://clearbrand.com/wp-website-example/the-digital-headhunter/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Triple",
+      "url": "https://clearbrand.com/wp-website-example/triple/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Sana Benefits",
+      "url": "https://clearbrand.com/wp-website-example/sana-benefits/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Recurrent Ventures",
+      "url": "https://clearbrand.com/wp-website-example/recurrent-ventures/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Overhaul",
+      "url": "https://clearbrand.com/wp-website-example/overhaul/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "PDS Inc",
+      "url": "https://clearbrand.com/wp-website-example/pds-inc/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Pixel Painters",
+      "url": "https://clearbrand.com/wp-website-example/pixel-painters/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Method",
+      "url": "https://clearbrand.com/wp-website-example/method/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "MindFire Inc",
+      "url": "https://clearbrand.com/wp-website-example/mindfire-inc/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Moellering",
+      "url": "https://clearbrand.com/wp-website-example/moellering/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Insight Global",
+      "url": "https://clearbrand.com/wp-website-example/insight-global/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Leadership Strategies",
+      "url": "https://clearbrand.com/wp-website-example/leadership-strategies/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Learn To Make A Product",
+      "url": "https://clearbrand.com/wp-website-example/learn-to-make-a-product/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Flashpoint",
+      "url": "https://clearbrand.com/wp-website-example/flashpoint/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Go2 Delivery",
+      "url": "https://clearbrand.com/wp-website-example/go2-delivery/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Gotham Greens",
+      "url": "https://clearbrand.com/wp-website-example/gotham-greens/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "ExtensisHR",
+      "url": "https://clearbrand.com/wp-website-example/extensishr/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "First Orion",
+      "url": "https://clearbrand.com/wp-website-example/first-orion/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "CyberSN",
+      "url": "https://clearbrand.com/wp-website-example/cybersn/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "DistantJob",
+      "url": "https://clearbrand.com/wp-website-example/distantjob/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Elements",
+      "url": "https://clearbrand.com/wp-website-example/elements/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Engagedly",
+      "url": "https://clearbrand.com/wp-website-example/engagedly/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Bevi",
+      "url": "https://clearbrand.com/wp-website-example/bevi/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "CB Insights",
+      "url": "https://clearbrand.com/wp-website-example/cb-insights/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Grace Summit Church",
+      "url": "https://clearbrand.com/wp-website-example/grace-summit-church/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Gregory Dickow",
+      "url": "https://clearbrand.com/wp-website-example/gregory-dickow/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Hallow",
+      "url": "https://clearbrand.com/wp-website-example/hallow/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "One Freedom Coaching",
+      "url": "https://clearbrand.com/wp-website-example/one-freedom-coaching/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Disruption Advisors",
+      "url": "https://clearbrand.com/wp-website-example/disruption-advisors/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Maxwell Leadership",
+      "url": "https://clearbrand.com/wp-website-example/maxwell-leadership/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Michael Maddaus",
+      "url": "https://clearbrand.com/wp-website-example/michael-maddaus/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Mil One",
+      "url": "https://clearbrand.com/wp-website-example/mil-one/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "FranklinCovey",
+      "url": "https://clearbrand.com/wp-website-example/franklincovey/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Free Throws For Financial Professionals",
+      "url": "https://clearbrand.com/wp-website-example/free-throws-for-financial-professionals/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Great Resumes Fast",
+      "url": "https://clearbrand.com/wp-website-example/great-resumes-fast/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Edge of Wonder Travels",
+      "url": "https://clearbrand.com/wp-website-example/edge-of-wonder-travels/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Breaking the Chain Consulting",
+      "url": "https://clearbrand.com/wp-website-example/breaking-the-chain-consulting/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Barefoot Bride Tenerife",
+      "url": "https://clearbrand.com/wp-website-example/barefoot-bride-tenerife/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Vandalia Rental",
+      "url": "https://clearbrand.com/wp-website-example/vandalia-rental/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "The Site Group",
+      "url": "https://clearbrand.com/wp-website-example/the-site-group/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "MJR Landscape",
+      "url": "https://clearbrand.com/wp-website-example/mjr-landscape/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Denham-Blythe",
+      "url": "https://clearbrand.com/wp-website-example/denham-blythe/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Nalgene",
+      "url": "https://clearbrand.com/wp-website-example/nalgene/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Colorvision",
+      "url": "https://clearbrand.com/wp-website-example/colorvision/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Angry Birds",
+      "url": "https://clearbrand.com/wp-website-example/angry-birds/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Audbling",
+      "url": "https://clearbrand.com/wp-website-example/audbling/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "University of the People",
+      "url": "https://clearbrand.com/wp-website-example/university-of-the-people/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "USCCA",
+      "url": "https://clearbrand.com/wp-website-example/uscca/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Scrum Alliance",
+      "url": "https://clearbrand.com/wp-website-example/scrum-alliance/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Nopa Leadership",
+      "url": "https://clearbrand.com/wp-website-example/nopa-leadership/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "National Medical Education and Training Center",
+      "url": "https://clearbrand.com/wp-website-example/national-medical-education-and-training-center/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Cultivitae",
+      "url": "https://clearbrand.com/wp-website-example/cultivitae/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Duarte Inc",
+      "url": "https://clearbrand.com/wp-website-example/duarte-inc/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Ethena",
+      "url": "https://clearbrand.com/wp-website-example/ethena/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Crestcom International",
+      "url": "https://clearbrand.com/wp-website-example/crestcom-international/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "Attain Partners",
+      "url": "https://clearbrand.com/wp-website-example/attain-partners/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
+    },
+    {
+      "title": "GuidePlan",
+      "url": "https://clearbrand.com/wp-website-example/guideplan/",
+      "cat": "Business",
+      "tech": "WordPress, Custom Theme"
     }
   ],
   "laravelProjects": [
