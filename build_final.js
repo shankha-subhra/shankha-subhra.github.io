@@ -232,7 +232,7 @@ const skillsContent = `
         <div class="col-md-6 mb-5">
           <h4 class="mb-4 fw-bold">Tools & Technologies</h4>
           <div class="d-flex flex-wrap gap-3">
-            ${['MySQL', 'JavaScript', 'jQuery', 'Bootstrap', 'HTML5', 'CSS3', 'REST API', 'GraphQL', 'Git', 'GitHub', 'Salesforce'].map(t => `
+            ${['Shopify', 'Shopify Plus', 'Liquid', 'Remix', 'React.js', 'Node.js', 'PHP', 'Laravel', 'WordPress', 'WooCommerce', 'BigCommerce', 'Squarespace', 'Wix', 'JavaScript', 'jQuery', 'HTML5', 'CSS3', 'Bootstrap', 'MySQL', 'REST APIs', 'GraphQL', 'Shopify CLI', 'Git', 'GitHub', 'Postman', 'Figma', 'Lovable', 'Salesforce', 'QuickBooks', 'Asana', 'Jira', 'Trello', 'GTmetrix', 'Google PageSpeed Insights', 'PayPal', 'Stripe', 'Algolia'].map(t => `
               <span class="btn btn-outline-primary" style="pointer-events:none;">${t}</span>
             `).join('')}
           </div>
