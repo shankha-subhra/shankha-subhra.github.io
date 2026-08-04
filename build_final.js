@@ -175,7 +175,7 @@ function generateProjectCards(projects, platform = 'shopify') {
     return `
     <div class="col-md-4 mb-4 project-card" data-category="${p.cat}" data-tech="${p.tech}">
       <div class="card h-100">
-        <div class="d-flex align-items-center justify-content-center" style="height: 160px; background-color: ${pBgColor};">
+        <div class="d-flex align-items-center justify-content-center" style="height: 180px; background-color: ${pBgColor};">
           <img src="${pLogoUrl}" alt="${p.title} Logo" style="width: 70px; height: 70px; object-fit: contain;">
         </div>
         <div class="card-body d-flex flex-column text-center p-4">
