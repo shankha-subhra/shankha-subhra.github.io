@@ -26,6 +26,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="all-projects.html">All Projects</a></li>
             <li><a class="dropdown-item" href="shopify-projects.html">Shopify</a></li>
             <li><a class="dropdown-item" href="wordpress-projects.html">WordPress</a></li>
             <li><a class="dropdown-item" href="laravel-projects.html">Laravel</a></li>
@@ -54,43 +55,55 @@
               <li class="nav-item">
                 <button class="nav-link active filter-btn" data-filter="all">All Projects</button>
               </li>
-              <li class="nav-item">
-                <button class="nav-link filter-btn" data-filter="Ecommerce">E-commerce</button>
-              </li>
+              
               <li class="nav-item">
                 <button class="nav-link filter-btn" data-filter="Business">Business</button>
               </li>
+              
               <li class="nav-item">
-                <button class="nav-link filter-btn" data-filter="Portal">Portal / App</button>
+                <button class="nav-link filter-btn" data-filter="Ecommerce">E-commerce</button>
               </li>
+              
+              <li class="nav-item">
+                <button class="nav-link filter-btn" data-filter="Education">Education</button>
+              </li>
+              
+              <li class="nav-item">
+                <button class="nav-link filter-btn" data-filter="Media">Media</button>
+              </li>
+              
+              <li class="nav-item">
+                <button class="nav-link filter-btn" data-filter="Portal">Portal</button>
+              </li>
+              
             </ul>
           </div>
         </div>
         
-        <p class="text-center text-muted mb-5 fw-bold" id="results-count" style="font-family:'Jost', sans-serif;">2 PROJECTS FOUND</p>
+        <p class="text-center text-muted mb-5 fw-bold" id="results-count" style="font-family:'Jost', sans-serif;">20 PROJECTS FOUND</p>
 
         <div class="row g-4" id="project-grid">
           
-    <div class="col-md-4 mb-4 project-card" data-category="Payment" data-tech="Laravel, Stripe, PayPal">
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
       <div class="card h-100">
         <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
-          <img src="https://cdn.simpleicons.org/laravel/white" alt="Abbax EU Logo" style="width: 70px; height: 70px; object-fit: contain;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Kare Connect Logo" style="width: 70px; height: 70px; object-fit: contain;">
         </div>
         <div class="card-body d-flex flex-column text-center p-4">
-          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Abbax EU</h5>
-          <p class="small fw-bold" style="color:var(--primary-color);">Payment</p>
-          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, Stripe, PayPal.</p>
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Kare Connect</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
           <div class="mt-4 d-flex justify-content-center w-100 gap-2">
-            <a href="https://abbax.eu/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+            <a href="https://www.kareconnect.com.au" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
               Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
             </a>
             <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
               style="padding: 8px 20px;"
               data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
-              data-title="One moment, please..." 
-              data-desc="No description available for Abbax EU." 
-              data-tech="Laravel, Stripe, PayPal" 
-              data-url="https://abbax.eu/">
+              data-title="Kare Connect" 
+              data-desc="Laravel/MySQL platform with Algolia-powered search." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://www.kareconnect.com.au">
               Details <i class="bi bi-info-circle ms-1"></i>
             </button>
           </div>
@@ -101,23 +114,509 @@
     <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
       <div class="card h-100">
         <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
-          <img src="https://cdn.simpleicons.org/laravel/white" alt="Sport Clips Jobs Logo" style="width: 70px; height: 70px; object-fit: contain;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Kare Connect Logo" style="width: 70px; height: 70px; object-fit: contain;">
         </div>
         <div class="card-body d-flex flex-column text-center p-4">
-          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Sport Clips Jobs</h5>
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Kare Connect</h5>
           <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
           <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
           <div class="mt-4 d-flex justify-content-center w-100 gap-2">
-            <a href="https://jobs.sportclips.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+            <a href="https://www.kareconnect.com.au" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
               Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
             </a>
             <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
               style="padding: 8px 20px;"
               data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
-              data-title="Sport Clips - Unleash the PRO in you. Search for jobs - your career at Sport Clips" 
-              data-desc="We stand behind you every clip of the way. So you can do the same for your Clients. Sport Clips champions our 13,000+ Stylists in over 1,900 Stores" 
+              data-title="Kare Connect" 
+              data-desc="Laravel/MySQL platform with Algolia-powered search." 
               data-tech="Laravel, MySQL" 
-              data-url="https://jobs.sportclips.com/">
+              data-url="https://www.kareconnect.com.au">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Abbax Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Abbax</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://abbax.eu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Abbax" 
+              data-desc="Laravel/MySQL application with Stripe and PayPal." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://abbax.eu">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Ecommerce" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Pets Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Pets</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Ecommerce</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://pets.spokesman.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Pets" 
+              data-desc="Spokesman Laravel platform with MySQL and payment integrations." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://pets.spokesman.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Sport Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Sport</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://jobs.sportclips.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Sport" 
+              data-desc="Clips Jobs Production job platform using Laravel and MySQL." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://jobs.sportclips.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Ecommerce" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Invoice Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Invoice</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Ecommerce</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://invoiceninja.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Invoice" 
+              data-desc="Ninja Invoicing and payment-management platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://invoiceninja.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Ecommerce" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Contentoo Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Contentoo</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Ecommerce</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://contentoo.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Contentoo" 
+              data-desc="Content talent and collaboration marketplace." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://contentoo.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Education" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="MyRank Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">MyRank</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Education</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://myrank.co.in" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="MyRank" 
+              data-desc="Online learning and competitive-exam platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://myrank.co.in">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Usetably Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Usetably</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://www.usetably.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Usetably" 
+              data-desc="User-testing and product-feedback platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://www.usetably.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Education" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Laracasts Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Laracasts</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Education</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://laracasts.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Laracasts" 
+              data-desc="Developer education and video-training platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://laracasts.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Flarum Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Flarum</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://www.flarum.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Flarum" 
+              data-desc="Modern open-source community forum software." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://www.flarum.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="World Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">World</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://worldwalking.org" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="World" 
+              data-desc="Walking Gamified walking and wellness platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://worldwalking.org">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Business" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Barchart Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Barchart</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Business</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://www.barchart.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Barchart" 
+              data-desc="Financial data, market tools and research platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://www.barchart.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Portal" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Cachet Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Cachet</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Portal</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://cachethq.io" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Cachet" 
+              data-desc="Open-source service-status page system." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://cachethq.io">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Education" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Alison Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Alison</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Education</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://alison.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Alison" 
+              data-desc="Large online learning and certification platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://alison.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Ecommerce" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="iHerb Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">iHerb</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Ecommerce</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://www.iherb.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="iHerb" 
+              data-desc="Global health and wellness e-commerce platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://www.iherb.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Media" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Vogue Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Vogue</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Media</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://archive.vogue.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Vogue" 
+              data-desc="Archive Subscription fashion archive and content platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://archive.vogue.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Education" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Student Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Student</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Education</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://studentdoctor.net" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Student" 
+              data-desc="Doctor Network Education community and professional tools platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://studentdoctor.net">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Media" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Vanity Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Vanity</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Media</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://archive.vanityfair.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Vanity" 
+              data-desc="Fair Archive Subscriber archive and editorial content platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://archive.vanityfair.com">
+              Details <i class="bi bi-info-circle ms-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4 mb-4 project-card" data-category="Media" data-tech="Laravel, MySQL">
+      <div class="card h-100">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: #FF2D20;">
+          <img src="https://cdn.simpleicons.org/laravel/white" alt="Variety Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        </div>
+        <div class="card-body d-flex flex-column text-center p-4">
+          <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">Variety</h5>
+          <p class="small fw-bold" style="color:var(--primary-color);">Media</p>
+          <p class="card-text small text-muted flex-grow-1">Developed with Laravel, MySQL.</p>
+          <div class="mt-4 d-flex justify-content-center w-100 gap-2">
+            <a href="https://variety.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary px-3 rounded-pill" style="padding: 8px 20px;">
+              Visit Site <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+            <button type="button" class="btn btn-primary px-3 rounded-pill site-details-btn" 
+              style="padding: 8px 20px;"
+              data-bs-toggle="modal" data-bs-target="#siteDetailsModal" 
+              data-title="Variety" 
+              data-desc="Entertainment media and publishing platform." 
+              data-tech="Laravel, MySQL" 
+              data-url="https://variety.com">
               Details <i class="bi bi-info-circle ms-1"></i>
             </button>
           </div>
@@ -163,6 +662,7 @@
       <div class="col-md-4 mb-4">
         <h5 class="fw-bold mb-3">Projects</h5>
         <ul class="list-unstyled">
+          <li class="mb-2"><a href="all-projects.html" class="text-decoration-none text-muted">All Projects</a></li>
           <li class="mb-2"><a href="shopify-projects.html" class="text-decoration-none text-muted">Shopify Projects</a></li>
           <li class="mb-2"><a href="wordpress-projects.html" class="text-decoration-none text-muted">WordPress Projects</a></li>
           <li class="mb-2"><a href="laravel-projects.html" class="text-decoration-none text-muted">Laravel Projects</a></li>

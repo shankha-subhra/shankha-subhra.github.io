@@ -1,776 +1,1198 @@
 {
   "shopifyProjects": [
     {
+      "title": "Thrivemeals",
+      "url": "https://thrivemeals.com.au",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Subscriptions, checkout extension, cart rules and Laravel APIs."
+    },
+    {
       "title": "Bellydog",
       "url": "https://bellydog.com",
       "cat": "Ecommerce",
-      "tech": "Shopify 2.0",
-      "metaTitle": "BellyDog™ | Natural Dog Grooming Products",
-      "metaDesc": "More then just a pet care! A complete wellness routine for a happy and healthy dogs. High quality-ingredients for lifelong vitality and relaxation."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Figma-to-Shopify 2.0 theme, responsive sections and optimization."
     },
     {
-      "title": "Repell Shield",
+      "title": "RepellShield",
       "url": "https://repellshield.com",
       "cat": "Ecommerce",
-      "tech": "Shopify 2.0, Liquid",
-      "metaTitle": "RepellShield® | Natural Pest Repellents for a Safe &amp; Healthy Home",
-      "metaDesc": "RepellShield repels mice, insects &amp; more in a safe way without killing them or harming people, pets, or the environment. Natural, non-toxic pest control based on natural ingredients"
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Custom product pages, dynamic sections and responsive Liquid build."
     },
     {
-      "title": "Girl Happens Beauty",
+      "title": "Girl",
       "url": "https://girlhappens.beauty",
       "cat": "Beauty",
-      "tech": "Custom Theme, Apps",
-      "metaTitle": "Girl Happens Beauty",
-      "metaDesc": "Girl Happens Beauty - Vegane Kosmetik ohne Duftstoffe für dich."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Happens Beauty Beauty storefront, custom layouts and third-party integrations."
     },
     {
-      "title": "Acta Fight Gear",
-      "url": "https://actafightgear.com/",
+      "title": "Acta",
+      "url": "https://actafightgear.com",
       "cat": "Ecommerce",
-      "tech": "Shopify API, JS, CSS",
-      "metaTitle": "Acta",
-      "metaDesc": "No description available for Acta Fight Gear."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fight Gear 600+ product/variant API migration and custom theme implementation."
     },
     {
-      "title": "Kids Land USA",
-      "url": "https://www.kidslandusa.com/",
+      "title": "Kidsland",
+      "url": "https://www.kidslandusa.com",
       "cat": "Ecommerce",
-      "tech": "Shopify 2.0, REST API",
-      "metaTitle": "Luxury Strollers, Car Seats, High Chairs, &amp; More | Kidsland",
-      "metaDesc": "Curated baby gear for modern parenthood. Explore the world’s finest brands and nearly 40 years of trusted expertise to guide your journey."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "USA 1,000+ products; advanced brand, PDP, collection and menu experiences."
     },
     {
-      "title": "Zoot Sports",
-      "url": "https://zootsports.com/",
-      "cat": "Apparel",
-      "tech": "Shopify 2.0, JS",
-      "metaTitle": "Zoot Sports - Best Triathlon, Training Gear and Wetsuits",
-      "metaDesc": "Zoot is the leading triathlon sports brand, and for more than 40 years providing performance, comfortable, and quality triathlon, running, and cycle apparel and wetsuits."
-    },
-    {
-      "title": "Mad Hippie",
-      "url": "https://madhippie.com/",
-      "cat": "Subscription",
-      "tech": "Loop Subscriptions, Liquid",
-      "metaTitle": "Mad Hippie | Skincare, Sunscreen &amp; Cosmetics | Natural, Organic Beauty",
-      "metaDesc": "Active-rich solutions to simplify your skincare routine. Clean formulas free from animal ingredients, parabens, synthetic dyes &amp; bad vibes."
-    },
-    {
-      "title": "KanCan USA",
-      "url": "https://www.kancanusa.com/",
-      "cat": "Inventory",
-      "tech": "Shopify API, PHP",
-      "metaTitle": "Women&#39;s Jeans &amp; Denim &ndash; Kancan USA",
-      "metaDesc": "🤩Look amazing in jeans that actually fit 👖Wide Selection for Every body type 💃Dance-inspired comfort since 2003"
-    },
-    {
-      "title": "Nantucket Looms",
-      "url": "https://www.nantucketlooms.com/",
+      "title": "Zoot",
+      "url": "https://zootsports.com",
       "cat": "Ecommerce",
-      "tech": "Liquid, JS, SC Options",
-      "metaTitle": "Luxury Handwoven Textiles, Home Decor and Island Inspired Artwork.",
-      "metaDesc": "Since 1968, Nantucket Looms offers Handmade Throws, Handwoven Gifts, Artisanal Goods, Home Decor, Art and Artwork, Interior Design Services, and Unique Gifts."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Sports Shopify 2.0 implementation using Liquid, JavaScript and CSS."
     },
     {
-      "title": "Vital Sleep",
-      "url": "https://www.vitalsleep.com/",
-      "cat": "Health",
-      "tech": "Custom Theme, JS",
-      "metaTitle": "Stop Snoring, Sleep Peacefully | VitalSleep® Anti-Snoring Solution",
-      "metaDesc": "Sleep quieter and wake up refreshed with VitalSleep, the FDA-cleared, adjustable anti-snoring device made in the USA and molded to your teeth."
-    },
-    {
-      "title": "Carnation Inc",
-      "url": "https://carnation-inc.com/",
+      "title": "Boohgle",
+      "url": "https://boohgleusa.com",
       "cat": "Ecommerce",
-      "tech": "Liquid, CSS, Warranty",
-      "metaTitle": "Bill Money Counting Machines - Carnation Enterprises",
-      "metaDesc": "Cash counters, bill counters, and mixed denomination money counters with counterfeit detection – businesses love us. Count on us to count your cash!"
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "USA PHP registration/replacement app, webhooks and 200+ product import."
     },
     {
-      "title": "Lotus Foods",
-      "url": "https://www.lotusfoods.com/",
-      "cat": "Food",
-      "tech": "REST API, Custom Liquid",
-      "metaTitle": "Lotus Foods",
-      "metaDesc": "Lotus Foods is a California-based company that focuses on importing handcrafted rice from small family farms to the United States. Delicious and healthy rice products grown water smart, women strong, and climate-wise."
+      "title": "Mad",
+      "url": "https://madhippie.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Hippie Loop Subscriptions, 100+ product import and 20+ templates."
+    },
+    {
+      "title": "Kancan",
+      "url": "https://www.kancanusa.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "USA 1,000+ product import and custom PHP stock-management app."
+    },
+    {
+      "title": "Nantucket",
+      "url": "https://www.nantucketlooms.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Looms Custom Liquid storefront and product-options purchasing workflow."
+    },
+    {
+      "title": "VitalSleep",
+      "url": "https://www.vitalsleep.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Custom storefront with 20+ product and collection templates."
+    },
+    {
+      "title": "Carnation",
+      "url": "https://carnation-inc.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Interactive additional-warranty variant experience."
+    },
+    {
+      "title": "Lotus",
+      "url": "https://www.lotusfoods.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Foods Recipe metafields, custom navigation and 250+ blog migration."
     },
     {
       "title": "Nutiva",
-      "url": "https://www.nutiva.com/",
-      "cat": "Food",
-      "tech": "Metafields, PHP",
-      "metaTitle": "Nutiva Makes Organic Coconut Oils, Organic Coconut Aminos, &amp; More",
-      "metaDesc": "Nutiva makes Organic Coconut Oil, Organic Coconut Aminos. Organic MCT Oil, Organic Hemp Seed Oil, Organic Hemp Protein Powder, Organic Chia Seeds, Organic Shelled Hemp Seeds, Organic Coconut Manna, and more."
+      "url": "https://www.nutiva.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Metafield implementation and 250+ blog migration via REST API."
     },
     {
-      "title": "James River Laser",
+      "title": "James",
       "url": "https://jamesriverlaser.com",
       "cat": "Ecommerce",
-      "tech": "Boost AI Search, Filter",
-      "metaTitle": "Construction Lasers, Survey Equipment, and GPS | James River Laser",
-      "metaDesc": "James River Laser &amp; Equipment in Salem, VA, offers construction lasers, survey equipment, GPS/GNSS, and machine control systems with expert support and a repair service available. Serving since 1975, we ensure fast service, flexible shipping, and customer satisfaction."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "River Laser 500+ product import and Boost AI Search & Filter."
     },
     {
       "title": "Glamourental",
-      "url": "https://glamourental.com/",
-      "cat": "Rental",
-      "tech": "Shopify API, Rental App",
-      "metaTitle": "Rent Designer Indian Outfits in the USA Lehengas • Sarees • Indo-Weste",
-      "metaDesc": "Find the convenience of clothing rental with our diverse selection of Indian attire and outfits available online in the USA. Perfect ensemble for your next event."
-    },
-    {
-      "title": "ITIP Handles",
-      "url": "https://itiphandles.com/",
+      "url": "https://glamourental.com",
       "cat": "Ecommerce",
-      "tech": "Liquid, JS, CSS",
-      "metaTitle": "Ergonomic Safety Handles: Health &amp; Safety equipment",
-      "metaDesc": "Have you been laid up from backache? Safety Handles replace existing handles on everything from wheelchairs to roll cages. They are ergonomically designed to rotate. Therefore as you walk, lift and manoeuvre your barrow/ sack trolley etc it keeps your back and wrist straight preventing strain and injury."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "500+ product import, custom filters and rental integration."
     },
     {
-      "title": "Salai Shop",
-      "url": "https://salaishop.com/",
+      "title": "iTip",
+      "url": "https://itiphandles.com",
       "cat": "Ecommerce",
-      "tech": "JS Image Magnifier",
-      "metaTitle": "Pakistani Ethnic Wear Online – Designer Pakistani Clothing | Salai",
-      "metaDesc": "Shop Pakistani ethnic wear online for men, women and kids ! Discover Maria B, Sapphire, Gul Ahmed, wedding dresses &amp; everyday Pakistani clothing at Salai Shop."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Handles Custom storefront using Liquid, JavaScript and CSS."
     },
     {
-      "title": "Altamont Apparel",
-      "url": "https://altamontapparel.com/",
-      "cat": "Apparel",
-      "tech": "Shopify, Liquid",
-      "metaTitle": "Cut From A Different Cloth | altamontapparel.com &ndash; Altamont Apparel",
-      "metaDesc": "Altamont inspires possibility in others by elevating and upholding a tradition of rebellious expression. As personified by those fearless artists and athletes whose input is combined authentically, each new collection presents a candid snapshot of the rich diversity of their ideas and influences."
+      "title": "Salai",
+      "url": "https://salaishop.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Shop Custom theme and JavaScript image-magnification experience."
     },
     {
-      "title": "BL Lashes",
-      "url": "https://www.bllashes.com/",
+      "title": "EFF",
+      "url": "https://eff-bomb.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Bomb Custom Shopify theme front-end implementation."
+    },
+    {
+      "title": "Altamont",
+      "url": "https://altamontapparel.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Apparel Shopify theme development and storefront customization."
+    },
+    {
+      "title": "BL",
+      "url": "https://www.bllashes.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Lashes Custom Shopify theme with Liquid, JavaScript and CSS."
+    },
+    {
+      "title": "Allbirds",
+      "url": "https://www.allbirds.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Gymshark",
+      "url": "https://www.gymshark.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fitness apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Kylie",
+      "url": "https://kyliecosmetics.com",
       "cat": "Beauty",
-      "tech": "Shopify, Custom Theme",
-      "metaTitle": "BL Lashes (Blink Lashes)| Eyelash Extensions Supplier",
-      "metaDesc": "BL Lashes (Blink eyelash extensions) Store offers the best eyelash extension. We also sell lash extension glue and aftercare lash extension supplies from South Korea, at a competitive price."
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Cosmetics Beauty storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Fashion",
+      "url": "https://www.fashionnova.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Nova Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Taylor",
+      "url": "https://www.taylorstitch.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Stitch Menswear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "MVMT",
+      "url": "https://www.mvmt.com",
+      "cat": "Accessories",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Accessories storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Pura",
+      "url": "https://www.puravidabracelets.com",
+      "cat": "Accessories",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Vida Bracelets Jewelry storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "WP",
+      "url": "https://wpstandard.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Standard Leather goods storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Jeffree",
+      "url": "https://jeffreestarcosmetics.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Star Cosmetics Beauty storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Soko",
+      "url": "https://sokoglam.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Glam Skincare storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Herman",
+      "url": "https://store.hermanmiller.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Miller Furniture storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Peloton",
+      "url": "https://www.onepeloton.com",
+      "cat": "Health & Fitness",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fitness technology storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Waterdrop",
+      "url": "https://www.waterdrop.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beverages storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Steve",
+      "url": "https://www.stevemadden.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Madden Footwear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Arhaus",
+      "url": "https://www.arhaus.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Home and furniture storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Stanley",
+      "url": "https://www.stanley1913.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "1913 Drinkware storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Carhartt",
+      "url": "https://www.carhartt.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Workwear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Turtle",
+      "url": "https://www.turtlebeach.com",
+      "cat": "Electronics",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beach Electronics storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Shoe",
+      "url": "https://www.shoepalace.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Palace Footwear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Fear",
+      "url": "https://fearofgod.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "of God Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Brooklinen",
+      "url": "https://www.brooklinen.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Home goods storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Alo",
+      "url": "https://www.aloyoga.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Yoga Activewear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Hello",
+      "url": "https://www.hellomolly.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Molly Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Sol",
+      "url": "https://soldejaneiro.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "de Janeiro Beauty storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Prime",
+      "url": "https://drinkprime.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Hydration Beverages storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "UNTUCKit",
+      "url": "https://www.untuckit.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Menswear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Ruggable",
+      "url": "https://ruggable.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Home decor storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Aviator",
+      "url": "https://www.aviatornation.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Nation Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "American",
+      "url": "https://www.americangirl.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Girl Toys storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Ridge",
+      "url": "https://ridge.com",
+      "cat": "Accessories",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Accessories storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Cirkul",
+      "url": "https://drinkcirkul.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Drinkware storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Orthofeet",
+      "url": "https://www.orthofeet.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Footwear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Bodybuilding.com",
+      "url": "https://www.bodybuilding.com",
+      "cat": "Health & Fitness",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fitness storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Billabong",
+      "url": "https://www.billabong.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Surf apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "BevMo",
+      "url": "https://www.bevmo.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beverages storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "De",
+      "url": "https://www.delacalle.mx",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "La Calle Beverages storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Bite",
+      "url": "https://bitetoothpastebits.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Personal care storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Magic",
+      "url": "https://magicspoon.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Spoon Food storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Great",
+      "url": "https://greatjonesgoods.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Jones Cookware storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Weston",
+      "url": "https://westontable.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Table Home goods storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Heyday",
+      "url": "https://heydaycanning.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Canning Co. Food storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Ghia",
+      "url": "https://drinkghia.com",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beverages storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "FreshCap",
+      "url": "https://freshcap.com",
+      "cat": "Health & Fitness",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Wellness storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Justin",
+      "url": "https://justinreed.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Reed Fashion marketplace storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Quite",
+      "url": "https://quite-nice.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Nice Lifestyle storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "207ouest",
+      "url": "https://207ouest.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Graza",
+      "url": "https://www.graza.co",
+      "cat": "Food & Beverage",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Food storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "OUAI",
+      "url": "https://theouai.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beauty storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Perfect",
+      "url": "https://perfectwhitetee.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "White Tee Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Shock",
+      "url": "https://www.shocksurplus.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Surplus Automotive storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Anyday",
+      "url": "https://cookanyday.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Cookware storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Rocco",
+      "url": "https://roccofridge.com",
+      "cat": "Electronics",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Appliances storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "TUSHY",
+      "url": "https://hellotushy.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Home and wellness storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Velasca",
+      "url": "https://www.velasca.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Footwear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Petal",
+      "url": "https://petalandpup.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "& Pup Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Beard",
+      "url": "https://www.beardandblade.com.au",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "& Blade Grooming storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Swell",
+      "url": "https://swellnomore.com",
+      "cat": "Health & Fitness",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "No More Wellness storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Diaboli",
+      "url": "https://www.diabolikill.com",
+      "cat": "Accessories",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Kill Jewelry storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Knack",
+      "url": "https://knackshops.com",
+      "cat": "Ecommerce",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Gifts storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Anecdote",
+      "url": "https://anecdotecandles.com",
+      "cat": "Home & Decor",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Candles Home fragrance storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Otobrush",
+      "url": "https://www.otobrush.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Personal care storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Helen's",
+      "url": "https://www.helensjewels.com",
+      "cat": "Accessories",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Jewels Jewelry storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Harry's",
+      "url": "https://www.harrys.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Grooming storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Keyboardio",
+      "url": "https://shop.keyboard.io",
+      "cat": "Electronics",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Electronics storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Wiralcam",
+      "url": "https://www.wiralcam.com",
+      "cat": "Electronics",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Camera equipment storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "The",
+      "url": "https://theoodie.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Oodie Apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Cove",
+      "url": "https://www.coveusa.co",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "USA Apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Prashanti",
+      "url": "https://www.prashantisarees.in",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Sarees Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Indigo",
+      "url": "https://indigoluna.store",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Luna Activewear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Carbon38",
+      "url": "https://carbon38.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Activewear storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Ally",
+      "url": "https://allyfashion.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fashion Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Birds",
+      "url": "https://birdsofcondor.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "of Condor Golf apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Pactimo",
+      "url": "https://www.pactimo.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Cycling apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "KITH",
+      "url": "https://kith.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "SKIMS",
+      "url": "https://skims.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Fashion storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Bombas",
+      "url": "https://bombas.com",
+      "cat": "Fashion",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Apparel storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "ColourPop",
+      "url": "https://colourpop.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beauty storefront with useful ideas for merchandising, navigation and conversion."
+    },
+    {
+      "title": "Glossier",
+      "url": "https://www.glossier.com",
+      "cat": "Beauty",
+      "tech": "Shopify, Liquid, JavaScript",
+      "metaDesc": "Beauty storefront with useful ideas for merchandising, navigation and conversion."
     }
   ],
   "wpProjects": [
     {
-      "title": "KLS Services",
-      "url": "http://klsservices.com.au/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Fire Safe Chimney Services",
-      "url": "http://firesafechimneyservices.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "ILM Weekly",
-      "url": "https://ilmweekly.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "4 Nations",
-      "url": "http://www.4nations.com.au/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "The Wisdom Academy",
-      "url": "https://www.thewisdomacademy.in/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Leadigo",
-      "url": "https://www.leadigo.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Ravinia Plumbing",
-      "url": "http://raviniaplumbing.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Precision Work",
-      "url": "http://precisionworkinc.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Restore Masonry",
-      "url": "http://restoremasonry.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Tyler Lane",
-      "url": "http://tylerlaneinc.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Curiously You",
-      "url": "http://www.curiouslyyou.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "EduJobs Canada MemberPress, Stripe, translation and",
-      "url": "http://edujobscanada.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Tasha Jean",
-      "url": "http://tasha-jean.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Hotel Digonera Multilingual custom theme and",
-      "url": "http://www.hoteldigonera.com/en/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Consultants SI Multilingual PHP theme with",
-      "url": "http://consultantssi.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Flexi",
-      "url": "http://flexi.co.in/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "IT People Network",
-      "url": "http://itpeoplenetwork.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Punjab Sweets Online ToastTab ordering/booking,",
-      "url": "http://punjabsweetsonline.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Splash Car Wash",
-      "url": "https://www.splashcarwash.com.au/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Caster Concepts",
-      "url": "https://www.casterconcepts.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "FlipNerd",
-      "url": "https://flipnerd.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Green As It Gets",
-      "url": "https://www.greenasitgets.com/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Toby Weston",
-      "url": "http://tobyweston.net/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Bulletproof",
-      "url": "https://clearbrand.com/wp-website-example/bulletproof/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Dallas Mavericks",
-      "url": "https://clearbrand.com/wp-website-example/dallas-mavericks/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Dallas Oasis",
-      "url": "https://clearbrand.com/wp-website-example/dallas-oasis/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Equilibria",
-      "url": "https://clearbrand.com/wp-website-example/equilibria/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Forever Oceans",
-      "url": "https://clearbrand.com/wp-website-example/forever-oceans/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Lightspeed Venture Partners",
-      "url": "https://clearbrand.com/wp-website-example/lightspeed-venture-partners/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Orbit Fab",
-      "url": "https://clearbrand.com/wp-website-example/orbit-fab/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Security Training Center",
-      "url": "https://clearbrand.com/wp-website-example/security-training-center/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "WonderCow",
-      "url": "https://clearbrand.com/wp-website-example/wondercow/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "The Rolling Stones",
-      "url": "https://clearbrand.com/wp-website-example/the-rolling-stones/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Reverent Films",
-      "url": "https://clearbrand.com/wp-website-example/reverent-films/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Lisa Devlin Photography",
-      "url": "https://clearbrand.com/wp-website-example/lisa-devlin-photography/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Mayberry Multimedia",
-      "url": "https://clearbrand.com/wp-website-example/mayberry-multimedia/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Melanie Mauer",
-      "url": "https://clearbrand.com/wp-website-example/melanie-mauer/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Fusion Designed",
-      "url": "https://clearbrand.com/wp-website-example/fusion-designed/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "City Museum",
-      "url": "https://clearbrand.com/wp-website-example/city-museum/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Focused Compliance Group",
-      "url": "https://clearbrand.com/wp-website-example/focused-compliance-group/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "EcoCosm Inc",
-      "url": "https://clearbrand.com/wp-website-example/ecocosm-inc/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Arnic Business Solutions",
-      "url": "https://clearbrand.com/wp-website-example/arnic-business-solutions/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Tell Me Your Dreams",
-      "url": "https://clearbrand.com/wp-website-example/tell-me-your-dreams/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "The Digital Headhunter",
-      "url": "https://clearbrand.com/wp-website-example/the-digital-headhunter/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Triple",
-      "url": "https://clearbrand.com/wp-website-example/triple/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Sana Benefits",
-      "url": "https://clearbrand.com/wp-website-example/sana-benefits/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Recurrent Ventures",
-      "url": "https://clearbrand.com/wp-website-example/recurrent-ventures/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Overhaul",
-      "url": "https://clearbrand.com/wp-website-example/overhaul/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "PDS Inc",
-      "url": "https://clearbrand.com/wp-website-example/pds-inc/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Pixel Painters",
-      "url": "https://clearbrand.com/wp-website-example/pixel-painters/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
-    },
-    {
-      "title": "Method",
-      "url": "https://clearbrand.com/wp-website-example/method/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Godin Guitars",
+      "url": "https://godinguitars.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Guitar manufacturer store featuring electric, acoustic, and bass guitar collections."
     },
     {
-      "title": "MindFire Inc",
-      "url": "https://clearbrand.com/wp-website-example/mindfire-inc/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Meblostan",
+      "url": "https://meblostan.pl/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Furniture e-commerce website offering home furnishings and interior products."
     },
     {
-      "title": "Moellering",
-      "url": "https://clearbrand.com/wp-website-example/moellering/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Thompson + Hanson",
+      "url": "https://thompsonhanson.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Luxury garden, home, and lifestyle store with curated products."
     },
     {
-      "title": "Insight Global",
-      "url": "https://clearbrand.com/wp-website-example/insight-global/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Aunt Fannie’s",
+      "url": "https://auntfannies.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Natural household cleaning and pest-control product store."
     },
     {
-      "title": "Leadership Strategies",
-      "url": "https://clearbrand.com/wp-website-example/leadership-strategies/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Badeloft",
+      "url": "https://www.badeloftusa.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Luxury bathroom store selling freestanding bathtubs, sinks, and fixtures."
     },
     {
-      "title": "Learn To Make A Product",
-      "url": "https://clearbrand.com/wp-website-example/learn-to-make-a-product/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Scrub Daddy",
+      "url": "https://scrubdaddy.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Popular cleaning-product store featuring sponges, scrubbers, and accessories."
     },
     {
-      "title": "Flashpoint",
-      "url": "https://clearbrand.com/wp-website-example/flashpoint/",
+      "title": "Porter & York",
+      "url": "https://porterandyork.com/",
       "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Premium online butcher offering fresh meat and curated food products."
     },
     {
-      "title": "Go2 Delivery",
-      "url": "https://clearbrand.com/wp-website-example/go2-delivery/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Offerman Woodshop",
+      "url": "https://offermanwoodshop.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Handcrafted woodworking shop selling furniture, gifts, and custom pieces."
     },
     {
-      "title": "Gotham Greens",
-      "url": "https://clearbrand.com/wp-website-example/gotham-greens/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Good Dye Young",
+      "url": "https://gooddyeyoung.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Hair-color and beauty e-commerce store with vibrant product collections."
     },
     {
-      "title": "ExtensisHR",
-      "url": "https://clearbrand.com/wp-website-example/extensishr/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Printing New York",
+      "url": "https://www.printingnewyork.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Commercial printing store offering banners, cards, signage, and custom print services."
     },
     {
-      "title": "First Orion",
-      "url": "https://clearbrand.com/wp-website-example/first-orion/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Eat Grub",
+      "url": "https://www.eatgrub.co.uk/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Sustainable food store specializing in edible insects and protein products."
     },
     {
-      "title": "CyberSN",
-      "url": "https://clearbrand.com/wp-website-example/cybersn/",
+      "title": "Caesar’s Ice Cream",
+      "url": "https://heladitos.com/",
       "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Ice cream and frozen dessert website featuring products and retail information."
     },
     {
-      "title": "DistantJob",
-      "url": "https://clearbrand.com/wp-website-example/distantjob/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Orange Amps",
+      "url": "https://orangeamps.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Music equipment brand selling amplifiers, cabinets, pedals, and accessories."
     },
     {
-      "title": "Elements",
-      "url": "https://clearbrand.com/wp-website-example/elements/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Magna-Tiles",
+      "url": "https://www.magnatiles.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Educational toy store selling magnetic building sets for children."
     },
     {
-      "title": "Engagedly",
-      "url": "https://clearbrand.com/wp-website-example/engagedly/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Kawaii Box",
+      "url": "https://www.kawaiibox.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Subscription and gift store featuring Japanese and Korean kawaii products."
     },
     {
-      "title": "Bevi",
-      "url": "https://clearbrand.com/wp-website-example/bevi/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Strandberg Guitars",
+      "url": "https://strandbergguitars.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Modern guitar store offering headless guitars, accessories, and artist models."
     },
     {
-      "title": "CB Insights",
-      "url": "https://clearbrand.com/wp-website-example/cb-insights/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "FLWR",
+      "url": "https://flwr.co.nz/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Florist and gift store offering bouquets, arrangements, and delivery services."
     },
     {
-      "title": "Grace Summit Church",
-      "url": "https://clearbrand.com/wp-website-example/grace-summit-church/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "3 Speed Holster",
+      "url": "https://3speedholster.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Concealed-carry accessory store offering custom holsters and related products."
     },
     {
-      "title": "Gregory Dickow",
-      "url": "https://clearbrand.com/wp-website-example/gregory-dickow/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Rotimatic",
+      "url": "https://rotimatic.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Smart kitchen appliance store featuring automated flatbread-making machines."
     },
     {
-      "title": "Hallow",
-      "url": "https://clearbrand.com/wp-website-example/hallow/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Tom Chalky",
+      "url": "https://tomchalky.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Digital design marketplace selling fonts, graphics, textures, and creative resources."
     },
     {
-      "title": "One Freedom Coaching",
-      "url": "https://clearbrand.com/wp-website-example/one-freedom-coaching/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Only Mine",
+      "url": "https://www.onlymine.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Australian chocolate store offering handcrafted products and personalized gifts."
     },
     {
-      "title": "Disruption Advisors",
-      "url": "https://clearbrand.com/wp-website-example/disruption-advisors/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Sodashi",
+      "url": "https://www.sodashi.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Premium skincare store featuring natural beauty and wellness products."
     },
     {
-      "title": "Maxwell Leadership",
-      "url": "https://clearbrand.com/wp-website-example/maxwell-leadership/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "AB Aeterno",
+      "url": "https://www.abaeternowatches.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Watch store offering sustainable wooden and modern timepiece collections."
     },
     {
-      "title": "Michael Maddaus",
-      "url": "https://clearbrand.com/wp-website-example/michael-maddaus/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Emmanuelle D",
+      "url": "https://emmanuelled.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Fashion and accessories store featuring designer collections and lifestyle products."
     },
     {
-      "title": "Mil One",
-      "url": "https://clearbrand.com/wp-website-example/mil-one/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Zanetto",
+      "url": "https://www.zanetto.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Italian luxury homeware and silverware store featuring artisan-made products."
     },
     {
-      "title": "FranklinCovey",
-      "url": "https://clearbrand.com/wp-website-example/franklincovey/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "NestBloom",
+      "url": "https://www.nestbloom.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Wellness food store offering bird’s nest products and gift sets."
     },
     {
-      "title": "Free Throws For Financial Professionals",
-      "url": "https://clearbrand.com/wp-website-example/free-throws-for-financial-professionals/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Scratch Pet Food",
+      "url": "https://www.scratchpetfood.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Pet food subscription store offering personalized dog food delivery."
     },
     {
-      "title": "Great Resumes Fast",
-      "url": "https://clearbrand.com/wp-website-example/great-resumes-fast/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "The Smokehaus",
+      "url": "https://smokehaus.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Australian gourmet meat store specializing in smoked and cured products."
     },
     {
-      "title": "Edge of Wonder Travels",
-      "url": "https://clearbrand.com/wp-website-example/edge-of-wonder-travels/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Huru Backpack",
+      "url": "https://huru.rocks/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Travel gear store offering durable modular backpacks and accessories."
     },
     {
-      "title": "Breaking the Chain Consulting",
-      "url": "https://clearbrand.com/wp-website-example/breaking-the-chain-consulting/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "J. Hornig",
+      "url": "https://www.jhornig.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Coffee store selling beans, capsules, brewing products, and subscriptions."
     },
     {
-      "title": "Barefoot Bride Tenerife",
-      "url": "https://clearbrand.com/wp-website-example/barefoot-bride-tenerife/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Open Wear",
+      "url": "https://www.open-wear.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Sustainable outdoor clothing store featuring technical apparel and accessories."
     },
     {
-      "title": "Vandalia Rental",
-      "url": "https://clearbrand.com/wp-website-example/vandalia-rental/",
+      "title": "Ruby Atelier",
+      "url": "https://rubyatelier.com/",
       "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Fashion boutique offering curated clothing, accessories, and lifestyle products."
     },
     {
-      "title": "The Site Group",
-      "url": "https://clearbrand.com/wp-website-example/the-site-group/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Root Science",
+      "url": "https://www.shoprootscience.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Natural skincare store selling clean beauty products and facial treatments."
     },
     {
-      "title": "MJR Landscape",
-      "url": "https://clearbrand.com/wp-website-example/mjr-landscape/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Protest Sportswear",
+      "url": "https://www.protest.eu/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Sportswear and outdoor apparel store featuring surf, snow, and lifestyle collections."
     },
     {
-      "title": "Denham-Blythe",
-      "url": "https://clearbrand.com/wp-website-example/denham-blythe/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "JOCO Cups",
+      "url": "https://jococups.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Reusable drinkware store offering glass cups, bottles, and accessories."
     },
     {
-      "title": "Nalgene",
-      "url": "https://clearbrand.com/wp-website-example/nalgene/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "BetterBody Foods",
+      "url": "https://www.betterbodyfoods.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Health food store offering organic pantry staples and nutrition products."
     },
     {
-      "title": "Colorvision",
-      "url": "https://clearbrand.com/wp-website-example/colorvision/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Asheville Bee Charmer",
+      "url": "https://ashevillebeecharmer.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Honey and bee-product store featuring artisan flavors and gift collections."
     },
     {
-      "title": "Angry Birds",
-      "url": "https://clearbrand.com/wp-website-example/angry-birds/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Barefoot Buttons",
+      "url": "https://barefootbuttons.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Musical accessory store offering guitar pedal toppers and custom products."
     },
     {
-      "title": "Audbling",
-      "url": "https://clearbrand.com/wp-website-example/audbling/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Wootten",
+      "url": "https://wootten.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Australian leather goods store selling handcrafted footwear, bags, and accessories."
     },
     {
-      "title": "University of the People",
-      "url": "https://clearbrand.com/wp-website-example/university-of-the-people/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Disruptive Youth",
+      "url": "https://www.disruptiveyouth.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Fashion e-commerce store featuring women’s clothing and trend-focused collections."
     },
     {
-      "title": "USCCA",
-      "url": "https://clearbrand.com/wp-website-example/uscca/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Landyachtz",
+      "url": "https://landyachtz.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Skateboard and longboard store offering boards, completes, and accessories."
     },
     {
-      "title": "Scrum Alliance",
-      "url": "https://clearbrand.com/wp-website-example/scrum-alliance/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Melt Chocolates",
+      "url": "https://meltchocolates.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Luxury chocolate store offering handmade chocolates, gifts, and experiences."
     },
     {
-      "title": "Nopa Leadership",
-      "url": "https://clearbrand.com/wp-website-example/nopa-leadership/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Derek DeYoung",
+      "url": "https://www.derekdeyoung.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Art and lifestyle store featuring original fish artwork, prints, and apparel."
     },
     {
-      "title": "National Medical Education and Training Center",
-      "url": "https://clearbrand.com/wp-website-example/national-medical-education-and-training-center/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Go! Take Better Photos",
+      "url": "https://gotakebetterphotos.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Online photography course website selling educational programs and resources."
     },
     {
-      "title": "Cultivitae",
-      "url": "https://clearbrand.com/wp-website-example/cultivitae/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Wild Souls",
+      "url": "https://wildsouls.gr/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Healthy food store featuring nut butters, snacks, and organic products."
     },
     {
-      "title": "Duarte Inc",
-      "url": "https://clearbrand.com/wp-website-example/duarte-inc/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Don’t Buy Her Flowers",
+      "url": "https://dontbuyherflowers.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Thoughtful gift-box store offering curated care packages for different occasions."
     },
     {
-      "title": "Ethena",
-      "url": "https://clearbrand.com/wp-website-example/ethena/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "The Cool Hunter",
+      "url": "https://thecoolhunter.net/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Design-led store and editorial platform featuring art, objects, and lifestyle products."
     },
     {
-      "title": "Crestcom International",
-      "url": "https://clearbrand.com/wp-website-example/crestcom-international/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Elecbrakes",
+      "url": "https://www.elecbrakes.com/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Automotive technology store selling wireless electric brake controllers."
     },
     {
-      "title": "Attain Partners",
-      "url": "https://clearbrand.com/wp-website-example/attain-partners/",
+      "title": "Cupcake Studio",
+      "url": "https://cupcakestudio.ro/",
       "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Bakery website offering cupcakes, cakes, desserts, and online ordering."
     },
     {
-      "title": "GuidePlan",
-      "url": "https://clearbrand.com/wp-website-example/guideplan/",
-      "cat": "Business",
-      "tech": "WordPress, Custom Theme"
+      "title": "Essential Gourmet",
+      "url": "https://essentialgourmet.com.au/",
+      "cat": "Ecommerce",
+      "tech": "WordPress, Custom Theme",
+      "metaDesc": "Gourmet food store offering premium ingredients, pantry items, and gift products."
     }
   ],
   "laravelProjects": [
     {
-      "title": "Abbax EU",
-      "url": "https://abbax.eu/",
-      "cat": "Payment",
-      "tech": "Laravel, Stripe, PayPal",
-      "metaTitle": "One moment, please...",
-      "metaDesc": "No description available for Abbax EU."
-    },
-    {
-      "title": "Sport Clips Jobs",
-      "url": "https://jobs.sportclips.com/",
+      "title": "Kare Connect",
+      "url": "https://www.kareconnect.com.au",
       "cat": "Portal",
       "tech": "Laravel, MySQL",
-      "metaTitle": "Sport Clips - Unleash the PRO in you. Search for jobs - your career at Sport Clips",
-      "metaDesc": "We stand behind you every clip of the way. So you can do the same for your Clients. Sport Clips champions our 13,000+ Stylists in over 1,900 Stores"
+      "metaDesc": "Laravel/MySQL platform with Algolia-powered search."
+    },
+    {
+      "title": "Kare Connect",
+      "url": "https://www.kareconnect.com.au",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Laravel/MySQL platform with Algolia-powered search."
+    },
+    {
+      "title": "Abbax",
+      "url": "https://abbax.eu",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Laravel/MySQL application with Stripe and PayPal."
+    },
+    {
+      "title": "Pets",
+      "url": "https://pets.spokesman.com",
+      "cat": "Ecommerce",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Spokesman Laravel platform with MySQL and payment integrations."
+    },
+    {
+      "title": "Sport",
+      "url": "https://jobs.sportclips.com",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Clips Jobs Production job platform using Laravel and MySQL."
+    },
+    {
+      "title": "Invoice",
+      "url": "https://invoiceninja.com",
+      "cat": "Ecommerce",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Ninja Invoicing and payment-management platform."
+    },
+    {
+      "title": "Contentoo",
+      "url": "https://contentoo.com",
+      "cat": "Ecommerce",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Content talent and collaboration marketplace."
+    },
+    {
+      "title": "MyRank",
+      "url": "https://myrank.co.in",
+      "cat": "Education",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Online learning and competitive-exam platform."
+    },
+    {
+      "title": "Usetably",
+      "url": "https://www.usetably.com",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "User-testing and product-feedback platform."
+    },
+    {
+      "title": "Laracasts",
+      "url": "https://laracasts.com",
+      "cat": "Education",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Developer education and video-training platform."
+    },
+    {
+      "title": "Flarum",
+      "url": "https://www.flarum.com",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Modern open-source community forum software."
+    },
+    {
+      "title": "World",
+      "url": "https://worldwalking.org",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Walking Gamified walking and wellness platform."
+    },
+    {
+      "title": "Barchart",
+      "url": "https://www.barchart.com",
+      "cat": "Business",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Financial data, market tools and research platform."
+    },
+    {
+      "title": "Cachet",
+      "url": "https://cachethq.io",
+      "cat": "Portal",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Open-source service-status page system."
+    },
+    {
+      "title": "Alison",
+      "url": "https://alison.com",
+      "cat": "Education",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Large online learning and certification platform."
+    },
+    {
+      "title": "iHerb",
+      "url": "https://www.iherb.com",
+      "cat": "Ecommerce",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Global health and wellness e-commerce platform."
+    },
+    {
+      "title": "Vogue",
+      "url": "https://archive.vogue.com",
+      "cat": "Media",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Archive Subscription fashion archive and content platform."
+    },
+    {
+      "title": "Student",
+      "url": "https://studentdoctor.net",
+      "cat": "Education",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Doctor Network Education community and professional tools platform."
+    },
+    {
+      "title": "Vanity",
+      "url": "https://archive.vanityfair.com",
+      "cat": "Media",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Fair Archive Subscriber archive and editorial content platform."
+    },
+    {
+      "title": "Variety",
+      "url": "https://variety.com",
+      "cat": "Media",
+      "tech": "Laravel, MySQL",
+      "metaDesc": "Entertainment media and publishing platform."
     }
   ]
 }

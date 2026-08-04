@@ -23,6 +23,7 @@ const navbar = `
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="all-projects.html">All Projects</a></li>
             <li><a class="dropdown-item" href="shopify-projects.html">Shopify</a></li>
             <li><a class="dropdown-item" href="wordpress-projects.html">WordPress</a></li>
             <li><a class="dropdown-item" href="laravel-projects.html">Laravel</a></li>
@@ -70,6 +71,7 @@ const footer = `
       <div class="col-md-4 mb-4">
         <h5 class="fw-bold mb-3">Projects</h5>
         <ul class="list-unstyled">
+          <li class="mb-2"><a href="all-projects.html" class="text-decoration-none text-muted">All Projects</a></li>
           <li class="mb-2"><a href="shopify-projects.html" class="text-decoration-none text-muted">Shopify Projects</a></li>
           <li class="mb-2"><a href="wordpress-projects.html" class="text-decoration-none text-muted">WordPress Projects</a></li>
           <li class="mb-2"><a href="laravel-projects.html" class="text-decoration-none text-muted">Laravel Projects</a></li>
@@ -136,25 +138,26 @@ function generateHTML(title, content) {
 }
 
 function generateProjectCards(projects, platform = 'shopify') {
-  let logoUrl = "";
-  let bgColor = "";
-  if (platform === 'shopify') {
-    logoUrl = "https://cdn.simpleicons.org/shopify/white";
-    bgColor = "#95BF47"; // Shopify green
-  } else if (platform === 'wordpress') {
-    logoUrl = "https://cdn.simpleicons.org/wordpress/white";
-    bgColor = "#21759B"; // WordPress blue
-  } else if (platform === 'laravel') {
-    logoUrl = "https://cdn.simpleicons.org/laravel/white";
-    bgColor = "#FF2D20"; // Laravel red
-  }
-
   return projects.map(p => {
+    let pPlatform = p.platform || platform;
+    let pLogoUrl = "";
+    let pBgColor = "";
+    if (pPlatform === 'shopify') {
+      pLogoUrl = "https://cdn.simpleicons.org/shopify/white";
+      pBgColor = "#95BF47";
+    } else if (pPlatform === 'wordpress') {
+      pLogoUrl = "https://cdn.simpleicons.org/wordpress/white";
+      pBgColor = "#21759B";
+    } else if (pPlatform === 'laravel') {
+      pLogoUrl = "https://cdn.simpleicons.org/laravel/white";
+      pBgColor = "#FF2D20";
+    }
+
     return `
     <div class="col-md-4 mb-4 project-card" data-category="${p.cat}" data-tech="${p.tech}">
       <div class="card h-100">
-        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: ${bgColor};">
-          <img src="${logoUrl}" alt="${p.title} Logo" style="width: 70px; height: 70px; object-fit: contain;">
+        <div class="d-flex align-items-center justify-content-center" style="height: 200px; background-color: ${pBgColor};">
+          <img src="${pLogoUrl}" alt="${p.title} Logo" style="width: 70px; height: 70px; object-fit: contain;">
         </div>
         <div class="card-body d-flex flex-column text-center p-4">
           <h5 class="card-title fw-bold mb-2" style="font-family:'Jost', sans-serif;">${p.title}</h5>
@@ -294,8 +297,9 @@ const indexContent = `
         <h2 class="section-title">Here Are My Latest Projects.</h2>
       </div>
       <div class="row">
-        ${generateProjectCards(shopifyProjects.slice(0, 3), 'shopify')}
-        ${generateProjectCards(wpProjects.slice(0, 3), 'wordpress')}
+        ${generateProjectCards(shopifyProjects.slice(0, 10), 'shopify')}
+        ${generateProjectCards(wpProjects.slice(0, 7), 'wordpress')}
+        ${generateProjectCards(laravelProjects.slice(0, 3), 'laravel')}
       </div>
       <div class="text-center mt-4">
         <a href="shopify-projects.html" class="btn btn-primary">See All Projects</a>
@@ -413,15 +417,11 @@ function projectPageContent(title, projects) {
               <li class="nav-item">
                 <button class="nav-link active filter-btn" data-filter="all">All Projects</button>
               </li>
+              ${Array.from(new Set(projects.map(p => p.cat))).sort().map(cat => `
               <li class="nav-item">
-                <button class="nav-link filter-btn" data-filter="Ecommerce">E-commerce</button>
+                <button class="nav-link filter-btn" data-filter="${cat}">${cat === 'Ecommerce' ? 'E-commerce' : cat}</button>
               </li>
-              <li class="nav-item">
-                <button class="nav-link filter-btn" data-filter="Business">Business</button>
-              </li>
-              <li class="nav-item">
-                <button class="nav-link filter-btn" data-filter="Portal">Portal / App</button>
-              </li>
+              `).join('')}
             </ul>
           </div>
         </div>
@@ -429,7 +429,7 @@ function projectPageContent(title, projects) {
         <p class="text-center text-muted mb-5 fw-bold" id="results-count" style="font-family:'Jost', sans-serif;">${projects.length} PROJECTS FOUND</p>
 
         <div class="row g-4" id="project-grid">
-          ${generateProjectCards(projects, title.toLowerCase().includes('shopify') ? 'shopify' : title.toLowerCase().includes('wordpress') ? 'wordpress' : 'laravel')}
+          ${generateProjectCards(projects, title.toLowerCase().includes('all') ? 'mixed' : (title.toLowerCase().includes('shopify') ? 'shopify' : title.toLowerCase().includes('wordpress') ? 'wordpress' : 'laravel'))}
         </div>
       </div>
     </section>
@@ -439,5 +439,12 @@ function projectPageContent(title, projects) {
 fs.writeFileSync('shopify-projects.html', generateHTML('Shopify Projects', projectPageContent('Shopify Projects', shopifyProjects)));
 fs.writeFileSync('wordpress-projects.html', generateHTML('WordPress Projects', projectPageContent('WordPress Projects', wpProjects)));
 fs.writeFileSync('laravel-projects.html', generateHTML('Laravel Projects', projectPageContent('Laravel Projects', laravelProjects)));
+
+const allProjectsCombined = [
+  ...shopifyProjects.map(p => ({...p, platform: 'shopify'})),
+  ...wpProjects.map(p => ({...p, platform: 'wordpress'})),
+  ...laravelProjects.map(p => ({...p, platform: 'laravel'}))
+];
+fs.writeFileSync('all-projects.html', generateHTML('All Projects', projectPageContent('All Projects', allProjectsCombined)));
 
 console.log('Complete generation finished. Contact section totally removed. GraphixPro layout applied.');
