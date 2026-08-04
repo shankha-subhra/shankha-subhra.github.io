@@ -307,3 +307,20 @@ footer {
 .bg-primary {
   background-color: var(--primary-color) !important;
 }
+@media (max-width: 600px) {
+  .btn {
+    font-size: calc(1rem - 3px) !important;
+  }
+}
+
+.hero-section {
+  padding: 0px 0 75px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+}
+
+.hero-designation {
+  font-size: 1.4rem;
+}
