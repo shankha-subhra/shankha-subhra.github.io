@@ -162,8 +162,8 @@ a.navbar-brand img {
 }
 
 .btn-primary:hover {
-  background-color: #e53861;
-  border-color: #e53861;
+  background-color: #037534;
+  border-color: #037534;
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(255, 62, 108, 0.3);
 }
