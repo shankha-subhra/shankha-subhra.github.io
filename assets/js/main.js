@@ -131,18 +131,20 @@ document.addEventListener('DOMContentLoaded', () => {
         let visibleCount = 0;
         
         projectCards.forEach(card => {
-            const category = card.getAttribute('data-category');
-            const title = card.querySelector('.card-title').innerText.toLowerCase();
-            const tech = card.getAttribute('data-tech').toLowerCase();
+            const category = card.getAttribute('data-category') || '';
+            const titleEl = card.querySelector('.card-title');
+            const title = titleEl ? titleEl.innerText.toLowerCase() : '';
+            const tech = card.getAttribute('data-tech') || '';
+            const techLower = tech.toLowerCase();
             
-            const matchesFilter = activeFilter === 'all' || category === activeFilter;
-            const matchesSearch = title.includes(searchTerm) || tech.includes(searchTerm);
+            const matchesFilter = activeFilter === 'all' || category.toLowerCase() === activeFilter.toLowerCase() || techLower.includes(activeFilter.toLowerCase());
+            const matchesSearch = title.includes(searchTerm) || techLower.includes(searchTerm);
             
             if (matchesFilter && matchesSearch) {
-                card.classList.remove('hidden');
+                card.classList.remove('d-none');
                 visibleCount++;
             } else {
-                card.classList.add('hidden');
+                card.classList.add('d-none');
             }
         });
         
@@ -153,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filterBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             filterBtns.forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
+            e.currentTarget.classList.add('active');
             filterProjects();
         });
     });
