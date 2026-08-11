@@ -489,3 +489,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+\n\na.btn, .btn {\n    border-radius: 29px !important;\n}\n
