@@ -230,3 +230,40 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+// Animated Counters for Hero Sections
+document.addEventListener('DOMContentLoaded', () => {
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200; // The lower the slower
+
+    const animateCounters = () => {
+        counters.forEach(counter => {
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const inc = target / speed;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + inc);
+                    setTimeout(updateCount, 15);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            
+            // Only animate if the element is in view (using intersection observer)
+            const observer = new IntersectionObserver((entries) => {
+                if(entries[0].isIntersecting) {
+                    updateCount();
+                    observer.disconnect();
+                }
+            }, { threshold: 0.5 });
+            observer.observe(counter);
+        });
+    };
+    
+    if (counters.length > 0) {
+        animateCounters();
+    }
+});

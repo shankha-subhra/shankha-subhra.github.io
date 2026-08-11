@@ -513,3 +513,23 @@ a.btn,
   letter-spacing: 1px;
   transition: all 0.3s;
 }
+
+/* Hero Stats Card */
+.hero-stat-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    top: 0;
+}
+.hero-stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08) !important;
+}
+.hero-stat-card .icon-wrapper {
+    transition: transform 0.3s ease;
+}
+.hero-stat-card:hover .icon-wrapper {
+    transform: scale(1.1);
+}
+.tracking-wide {
+    letter-spacing: 1px;
+}
