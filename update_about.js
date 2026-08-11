@@ -1,60 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+const fs = require('fs');
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Senior Fullstack Developer</title>
-  <meta name="description"
-    content="Senior Shopify Developer with 10+ years of experience in Shopify Plus, Remix, React.js, Node.js, custom and public apps, headless commerce, and Hydrogen. Skilled in checkout customization, CRO, speed optimization, APIs, and integrations. Also experienced with Laravel, WordPress, BigCommerce, Squarespace and Wix.">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/site.webmanifest">
-  <link rel="shortcut icon" href="assets/images/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/images/ssbag.jpeg">
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg sticky-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="/"><img height="52" src="assets/images/ssblogo.png"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Projects</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="all-projects.html">All Projects</a></li>
-              <li><a class="dropdown-item" href="shopify-projects.html">Shopify</a></li>
-              <li><a class="dropdown-item" href="wordpress-projects.html">WordPress</a></li>
-              <li><a class="dropdown-item" href="laravel-projects.html">Laravel</a></li>
-            </ul>
-          </li>
-          <li class="nav-item ms-lg-3">
-            <a href="mailto:shankha4030@gmail.com" class="btn btn-primary d-none d-lg-inline-block">Hire Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-
+const htmlContent = `
 <!-- ABOUT HERO -->
 <section class="about-hero py-5">
     <div class="container reveal">
@@ -416,99 +362,110 @@ document.addEventListener("DOMContentLoaded", function () {
     counters.forEach(counter => observer.observe(counter));
 });
 </script>
+`;
 
-</main>
+const cssContent = `
+/* ABOUT PAGE CUSTOM STYLES */
+.service-card {
+    transition: all .35s ease;
+    border: 1px solid #eee;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(0,0,0,.10) !important;
+}
+.service-icon {
+    font-size: 38px;
+}
+.tech-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.tech-cloud span {
+    padding: 12px 20px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50px;
+    transition: .3s;
+}
+.tech-cloud span:hover {
+    background: #198754;
+    transform: translateY(-4px);
+}
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.timeline-item span {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #198754;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+}
+.career-line {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.career-item {
+    border-top: 3px solid #198754;
+    padding: 25px 20px;
+    background: #fff;
+    box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    transition: .3s;
+    border-radius: 0 0 10px 10px;
+}
+.career-item:hover {
+    transform: translateY(-6px);
+}
+.cta-box {
+    background: linear-gradient(
+        135deg,
+        #f2fff7 0%,
+        #ffffff 100%
+    );
+    border: 1px solid #dcefe3;
+}
+@media (max-width: 991px) {
+    .career-line {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 575px) {
+    .career-line {
+        grid-template-columns: 1fr;
+    }
+}
+`;
 
-  <footer>
-    <div class="container reveal">
-      <div class="row">
-        <div class="col-md-5 mb-4">
-          <h4 class="mb-3 fw-bold" style="font-family:'Jost', sans-serif;">Shankha<span
-              style="color:var(--primary-color);">Subhra</span></h4>
-          <p class="text-muted pe-md-4">Senior Shopify, WordPress and Laravel Developer based in Kolkata, India, with
-            10+ years of experience building modern e-commerce and web solutions.</p>
+// 1. Update about.html
+const aboutFile = 'e:\\New Projects\\shankha-subhra.github.io\\about.html';
+let aboutHtml = fs.readFileSync(aboutFile, 'utf8');
 
-          <div class="mt-4 mb-4">
-            <p class="mb-2 fw-semibold"><i class="bi bi-telephone-fill me-2 text-primary"></i> <a
-                href="tel:+919674364030" class="text-decoration-none text-muted">+91 9674364030</a></p>
-            <p class="mb-2 fw-semibold"><i class="bi bi-envelope-fill me-2 text-primary"></i> <a
-                href="mailto:shankha4030@gmail.com" class="text-decoration-none text-muted">shankha4030@gmail.com</a>
-            </p>
-          </div>
+const mainStart = aboutHtml.indexOf('<main>');
+const mainEnd = aboutHtml.indexOf('</main>');
 
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/in/shankha-subhra-bag-developer/" target="_blank"
-              rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/shankha-subhra" target="_blank" rel="noopener noreferrer"><i
-                class="bi bi-github"></i></a>
-            <a href="https://www.facebook.com/shankhasubhrabag/" target="_blank" rel="noopener noreferrer"><i
-                class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/shankhasubhrabag" target="_blank" rel="noopener noreferrer"><i
-                class="bi bi-instagram"></i></a>
-            <a href="mailto:shankha4030@gmail.com"><i class="bi bi-envelope"></i></a>
-          </div>
-        </div>
-        <div class="col-md-3 mb-4">
-          <h5 class="fw-bold mb-3">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li class="mb-2"><a href="index.html" class="text-decoration-none text-muted">Home</a></li>
-            <li class="mb-2"><a href="about.html" class="text-decoration-none text-muted">About</a></li>
-            <li class="mb-2"><a href="services.html" class="text-decoration-none text-muted">Services</a></li>
-            <li class="mb-2"><a href="skills.html" class="text-decoration-none text-muted">Skills</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 mb-4">
-          <h5 class="fw-bold mb-3">Projects</h5>
-          <ul class="list-unstyled">
-            <li class="mb-2"><a href="all-projects.html" class="text-decoration-none text-muted">All Projects</a></li>
-            <li class="mb-2"><a href="shopify-projects.html" class="text-decoration-none text-muted">Shopify
-                Projects</a></li>
-            <li class="mb-2"><a href="wordpress-projects.html" class="text-decoration-none text-muted">WordPress
-                Projects</a></li>
-            <li class="mb-2"><a href="laravel-projects.html" class="text-decoration-none text-muted">Laravel
-                Projects</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr class="mt-4 mb-4" style="border-color:var(--border-color);">
-      <div class="text-center text-muted">
-        <small>&copy; 2026 Shankha Subhra Bag. All rights reserved.</small>
-      </div>
-    </div>
-  </footer>
+if (mainStart !== -1 && mainEnd !== -1) {
+    aboutHtml = aboutHtml.substring(0, mainStart + 6) + '\n' + htmlContent + '\n' + aboutHtml.substring(mainEnd);
+    fs.writeFileSync(aboutFile, aboutHtml, 'utf8');
+    console.log('Updated about.html');
+}
 
-
-  <!-- Site Details Modal -->
-  <div class="modal fade" id="siteDetailsModal" tabindex="-1" aria-labelledby="siteDetailsModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title fw-bold" id="siteDetailsModalLabel" style="font-family:'Jost', sans-serif;">Site
-            Details</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <h6 class="text-primary fw-bold mb-1">Title</h6>
-          <p id="modal-site-title" class="mb-3 fw-semibold"></p>
-
-          <h6 class="text-primary fw-bold mb-1">Description</h6>
-          <p id="modal-site-desc" class="mb-3 text-muted"></p>
-
-          <h6 class="text-primary fw-bold mb-1">Technology</h6>
-          <p id="modal-site-tech" class="mb-0"><span class="badge bg-secondary p-2"></span></p>
-        </div>
-        <div class="modal-footer">
-          <a href="#" id="modal-visit-btn" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Site
-            <i class="bi bi-arrow-right ms-1"></i></a>
-          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
-</body>
-
-</html>
+// 2. Append CSS to style.css
+const cssFile = 'e:\\New Projects\\shankha-subhra.github.io\\assets\\css\\style.css';
+let styleCss = fs.readFileSync(cssFile, 'utf8');
+if (!styleCss.includes('.tech-cloud')) {
+    fs.appendFileSync(cssFile, '\n\n' + cssContent);
+    console.log('Appended CSS to style.css');
+} else {
+    console.log('CSS already present.');
+}
