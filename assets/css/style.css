@@ -490,3 +490,13 @@ footer {
     }
 }
 \n\na.btn, .btn {\n    border-radius: 29px !important;\n}\n
+
+.about-hero a.btn.btn-outline-dark {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
