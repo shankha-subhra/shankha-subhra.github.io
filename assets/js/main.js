@@ -197,4 +197,36 @@ document.addEventListener('DOMContentLoaded', () => {
             siteDetailsModal.querySelector('#modal-visit-btn').href = url;
         });
     }
+
+    // Letter Animation setup
+    const letterAnimElements = document.querySelectorAll('.letter-anim');
+    letterAnimElements.forEach(el => {
+        const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+        let node;
+        const textNodes = [];
+        while(node = walk.nextNode()) {
+            if(node.textContent.trim() !== '') {
+                textNodes.push(node);
+            }
+        }
+        
+        let globalIndex = 0;
+        textNodes.forEach(textNode => {
+            const text = textNode.textContent;
+            const fragment = document.createDocumentFragment();
+            for(let i = 0; i < text.length; i++) {
+                if (text[i] === ' ') {
+                    fragment.appendChild(document.createTextNode(' '));
+                } else {
+                    const span = document.createElement('span');
+                    span.className = 'letter d-inline-block';
+                    span.style.animationDelay = `${globalIndex * 0.05}s`;
+                    span.textContent = text[i];
+                    fragment.appendChild(span);
+                    globalIndex++;
+                }
+            }
+            textNode.parentNode.replaceChild(fragment, textNode);
+        });
+    });
 });
