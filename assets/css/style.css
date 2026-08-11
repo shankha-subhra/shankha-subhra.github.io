@@ -158,6 +158,7 @@ a.navbar-brand img {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -181,7 +182,8 @@ a.navbar-brand img {
   background-color: #037534;
   border-color: #037534;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3); /* Adjusted shadow color to match green primary */
+  box-shadow: 0 10px 20px rgb(104 189 123 / 30%);
+  /* Adjusted shadow color to match green primary */
 }
 
 .btn-outline-primary {
@@ -200,7 +202,7 @@ a.navbar-brand img {
   background-color: var(--primary-color);
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3);
+  box-shadow: 0 10px 20px rgb(104 189 123 / 30%);
 }
 
 /* Social Icons */
