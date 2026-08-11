@@ -148,6 +148,22 @@ a.navbar-brand img {
 }
 
 /* Buttons */
+.btn {
+  animation: btnFadeIn 0.8s ease-out backwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes btnFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
@@ -165,7 +181,7 @@ a.navbar-brand img {
   background-color: #037534;
   border-color: #037534;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(255, 62, 108, 0.3);
+  box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3); /* Adjusted shadow color to match green primary */
 }
 
 .btn-outline-primary {
@@ -177,13 +193,14 @@ a.navbar-brand img {
   padding: 12px 35px;
   border-radius: 50px;
   letter-spacing: 1px;
+  transition: all 0.3s;
 }
 
 .btn-outline-primary:hover {
   background-color: var(--primary-color);
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(255, 62, 108, 0.3);
+  box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3);
 }
 
 /* Social Icons */
