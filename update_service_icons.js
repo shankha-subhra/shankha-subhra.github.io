@@ -22,21 +22,6 @@ const iconMap = {
   'Maintenance & Support': 'bi-tools'
 };
 
-for (const [title, icon] of Object.entries(iconMap)) {
-    // We need to replace the icon for the specific feature card.
-    // We can use a regex to find the block matching this title.
-    // Example block:
-    // <div class="fs-1 text-primary mb-3"><i class="bi bi-code-square"></i></div>
-    // <h5 class="fw-bold">Shopify Store Development</h5>
-    
-    // We can match the entire block and replace the icon class.
-    const regex = new RegExp(`(<div class="fs-1 text-primary mb-3"><i class="bi )[a-z-]+("><\\/i><\\/div>\\s*<h5 class="fw-bold">${title.replace(/[.*+?^$\{}()|[\]\\]/g, '\\$&')}<\\/h5>)`, 'g');
-    content = content.replace(regex, `$1`.replace(/<i class="bi [a-z-]+">/, `<i class="bi ${icon}">`));
-}
-
-// Fallback in case the precise regex didn't catch due to formatting. We can just do a replace using split/join if needed.
-// Wait, the regex captures the `<i class="bi bi-code-square">` part in `$1` so replacing it inside `$1` is tricky in a single string replace unless we use a reviver function.
-
 let lines = content.split('\n');
 let i = 0;
 while (i < lines.length) {
@@ -52,4 +37,4 @@ while (i < lines.length) {
 }
 
 fs.writeFileSync(file, lines.join('\n'), 'utf8');
-console.log('Updated service icons.');
+console.log('Updated service icons safely.');
