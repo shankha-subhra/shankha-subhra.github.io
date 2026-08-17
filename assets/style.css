@@ -1526,8 +1526,8 @@ footer {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) translateZ(118px);
-  width: 112px;
-  height: 112px;
+  width: 150px;
+  height: 150px;
   border-radius: 31px;
   background: #fff;
   border: 1px solid #dbece0;
