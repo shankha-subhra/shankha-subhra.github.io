@@ -69,3 +69,30 @@ if (isTouchDevice) {
       el.onmouseleave = null;
     });
 }
+
+// Mobile navigation logic
+const nav = document.querySelector('nav');
+if (nav) {
+  const menuBtn = document.createElement('button');
+  menuBtn.className = 'mobile-menu-btn';
+  menuBtn.innerHTML = '<span></span><span></span><span></span>';
+  menuBtn.setAttribute('aria-label', 'Toggle menu');
+  
+  const menu = document.querySelector('.menu');
+  if (menu) {
+    nav.insertBefore(menuBtn, menu);
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+      menuBtn.classList.toggle('open');
+    });
+
+    // Close menu on link click
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        menuBtn.classList.remove('open');
+      });
+    });
+  }
+}
