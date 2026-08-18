@@ -1,6 +1,6 @@
 # Shankha Subhra Bag - Developer Portfolio
 
-![Shankha Subhra Bag](assets/images/ssbag.jpeg)
+![Shankha Subhra Bag](assets/ssbag.jpeg)
 
 ## About Me
 
