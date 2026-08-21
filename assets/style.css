@@ -1892,6 +1892,27 @@ section {
     gap: 24px;
   }
 
+
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reveal {
+    order: 2;
+  }
+
+  .scene.reveal,
+  .page-scene.reveal {
+    order: 1;
+  }
+
+  .hero,
+  .page-hero {
+    padding-bottom: 10px;
+  }
+
+
   .page-copy {
     max-width: 720px
   }
