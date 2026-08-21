@@ -2500,3 +2500,24 @@ section {
     grid-template-columns: 1fr
   }
 }
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-socials a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-socials a:hover {
+  opacity: 0.8;
+}
