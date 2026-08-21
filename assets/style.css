@@ -1617,7 +1617,7 @@ footer {
 }
 
 .metric-board {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 13px;
   margin-top: 30px
@@ -2154,6 +2154,13 @@ section {
     width: 100%;
   }
 
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
   .stat strong {
     font-size: 20px
   }
@@ -2183,7 +2190,7 @@ section {
   .project-list,
   .timeline,
   .metric-board {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .card3d,
