@@ -1617,7 +1617,7 @@ footer {
 }
 
 .metric-board {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 13px;
   margin-top: 30px
